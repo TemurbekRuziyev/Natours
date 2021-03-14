@@ -1,0 +1,32 @@
+//Import Abstracts
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/variables';
+
+//Import base
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+
+//Components style
+@import 'components/button.scss';
+@import 'components/composition';
+@import 'components/features-box.scss';
+@import 'components/card';
+@import 'components/story';
+@import 'components/bg-video';
+@import 'components/form';
+@import 'components/popup';
+
+
+//Layout styles
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/footer';
+@import 'layout/navigation';
+
+
+//Import pages
+@import 'pages/home';
